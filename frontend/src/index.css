@@ -1,0 +1,34 @@
+:root {
+  color-scheme: light;
+  font-family: "Space Grotesk", "Satoshi", "Avenir Next", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --bg: #f4f0ea;
+  --ink: #151515;
+  --muted: #5f5a55;
+  --accent: #ff6b35;
+  --accent-dark: #d44b1a;
+  --card: #ffffff;
+  --stroke: rgba(15, 15, 15, 0.12);
+  --shadow: 0 20px 50px rgba(15, 15, 15, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
