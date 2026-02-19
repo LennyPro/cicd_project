@@ -37,8 +37,7 @@ services:
 
   tests:
     build: ./backend
-    command: >
-      sh -c "pytest --cov=app --cov-report=term-missing --cov-fail-under=60"
+    command: pytest --cov=app --cov-report=term-missing --cov-fail-under=60
     volumes:
       - ./backend:/app
 
